@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <script src="./assets/script.js"></script>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cv Page</title>
+</head>
+<body>
+    <!-- up to top button and whatsapp button -->
+    <div class="d-flex">
+        <!-- up to top button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="fa fa-arrow-up"></i>
+        </button>
+        <!-- whatsapp button -->
+        <a href="https://api.whatsapp.com/send?phone=5491131234567" class="whatsapp" target="_blank">
+            <i class="fa fa-whatsapp whatsapp-icon"></i>
+        </a>
+    </div>
+    <!-- navbar -->
+    <div class="navbar">
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <!-- Darkmode Toggle -->
+    </div>
+    <!-- create 2 columns of 6 and 6 -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- videobackground with text -->
+            <div class="col-12 parallax-video">
+                <video class="rounded" autoplay muted loop id="myVideo">
+                    <source src="./assets/3138850444.mp4" type="video/mp4">
+                </video> 
+                <h1>
+                    Bernardo Zelaya
+                </h1>
+                <h2>
+                    FullStack Developer
+                </h2>
+                <p>
+                    Create, design and develop web applications
+                </p>
+            </div>
+        </div>
+
+    <!-- Experience -->
+    <div class="d-flex justify-content-around mt-5">
+        <div class="card-container">
+            <!-- card skills -->
+            <div class="card text-start w-100 skills-card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Skills</h5>
+                    <p class="card-text skills-card-text">
+                        knowledge in the following technologies
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <div class="col-4">
+                            <ul class="ul-card">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="ul-card">
+                                <li>React</li>
+                                <li>Node</li>
+                                <li>Express</li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul class="ul-card">
+                                <li>MySQL</li>
+                                <li>MongoDB</li>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <div class="container">
+                <h2 class="text-center mt-5 title" id="experience">Experience</h2>
+                <div class="d-flex mobile-experience justify-content-around">
+                    <!-- card  -->
+                    <div class="card m-3 glassmorphism" style="width: 18rem;">
+                        <img src="https://www.google.com" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Argentina Programa 4.0</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary align-item-center">Go somewhere</a>
+                        </div>
+                    </div>
+                    <!-- card  -->
+                    <div class="card m-3 glassmorphism" style="width: 18rem;">
+                        <img src="https://www.google.com" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Argentina Programa 4.0</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary align-item-center">Go somewhere</a>
+                        </div>
+                    </div>
+                    <!-- card  -->
+                    <div class="card m-3 glassmorphism" style="width: 18rem;">
+                        <img src="https://www.google.com" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                        <h5 class="card-title font-weight-bold">Argentina Programa 4.0</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary align-item-center">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <!-- Education -->
+    <div class="container">
+        <h2 id="education" class="text-center m-5 title" >Education</h2>
+        <div class="d-flex justify-content-around">
+            <!-- card  -->
+            <div class="card m-1 glassmorphism" style="width: 18rem;">
+                <img src="https://www.google.com" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                <h5 class="card-title font-weight-bold">Argentina Programa 4.0</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary align-item-center">Go somewhere</a>
+                </div>
+            </div>
+            <!-- card  -->
+            <div class="card m-1 glassmorphism" style="width: 18rem;">
+                <img src="https://www.google.com" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                <h5 class="card-title font-weight-bold">Argentina Programa 4.0</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary align-item-center">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column col-12 align-items-center">
+            <p class="text-center mt-5">
+                Download my CV in pdf format
+            </p>
+            <button class="btn btn-primary w-50" onclick="downloadCV()" target="_blank">Download CV</button>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="container">
+        <h2 class="text-center mt-5 title" id="projects">Projects</h2>
+        <div class="d-flex mobile-projects justify-content-around">
+            <!-- card  -->
+            <div class="card project-card m-3 glassmorphism" style="width: 18rem;">
+                <img class="img-card" src="assets/img-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                <h5 class="card-title font-weight-bold">Project 1</h5>
+                    <p class="card-text">Lorem ipsum </p>
+                    <a href="#" class="btn btn-primary align-item-center">Go To The Project</a>
+                </div>
+            </div>
+            <!-- card  -->
+            <div class="card project-card m-3 glassmorphism" style="width: 18rem;">
+                <img class="img-card" src="assets/img-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                <h5 class="card-title font-weight-bold">Project 2</h5>
+                    <p class="card-text">Lorem ipsum </p>
+                    <a href="#" class="btn btn-primary align-item-center">Go To The Project</a>
+                </div>
+            </div>
+            <!-- card  -->
+            <div class="card project-card m-3 glassmorphism" style="width: 18rem;">
+                <img class="img-card" src="assets/img-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                <h5 class="card-title font-weight-bold">Project 3</h5>
+                    <p class="card-text">Lorem ipsum </p>
+                    <a href="#" class="btn btn-primary align-item-center">Go To The Project</a>
+                </div>
+            </div>
+    </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer id="contact" class="footer footer-links mt-5">
+    <div class="col-12">
+        <div class="d-flex justify-content-between">
+            <h1 class="my-auto text-center ml-5">
+                Contact Me
+                <span>
+                    <i class="fa fa-envelope"></i> !
+                </span>
+            </h1>
+            <div class="contact text-center col-8">
+                <p class="text-center text m-auto p-4">
+                    If you want to contact me, you can do it through the social networks or by email.
+                </p>
+                <div class="d-flex mobile-flex m-auto justify-content-center col-3">
+                        <p class="text-center footer_link_p">
+                            Linked
+                            <a href="https://www.linkedin.com/in/bernardo-fernandez-7b5b4b1b3/" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </p>
+                        <p class="text-center footer_link_p">
+                            Github
+                            <a href="www.google.com" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </p>
+                        <p class="text-center footer_link_p">
+                            Twitter
+                            <a href="www.google.com" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </p>
+                        <p class="text-center footer_link_p">
+                            Facebook
+                            <a href="www.google.com" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </p>
+                </div>
+                <div class="d-flex mobile-flex m-auto justify-content-center col-3">
+                        <p class="text-center footer_link_p">
+                            Mail
+                            <a href="www.google.com" target="_blank">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </p>
+                        <p class="text-center footer_link_p">
+                            Phone
+                            <a href="www.google.com" target="_blank">
+                                <i class="fa fa-phone"></i>
+                            </a>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
